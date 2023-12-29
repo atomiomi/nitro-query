@@ -1,0 +1,17 @@
+{
+  "name": "nitro-query",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "NITRO_PRESET=aws-lambda nuxi build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge@^3.0.0-rc.4-28359206.43ba749",
+    "express": "^4.18.2",
+    "nuxi": "^3.10.0",
+    "nuxt": "^2.17.2"
+  }
+}
